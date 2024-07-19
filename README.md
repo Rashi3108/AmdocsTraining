@@ -2,7 +2,7 @@
 
 ## Install Docker Compose
 ```bash
-sudo apt-install docker-compose
+sudo apt install docker-compose
 ```
 
 docker-compose.yml
