@@ -114,7 +114,6 @@ Tmpfs mounts are temporary filesystems stored in the host's memory (RAM).
 1. **Run a Container with a Tmpfs Mount:**
     
     ```
-    shCopy code
     docker run -d --tmpfs /data:rw,noexec,nosuid,size=64m --name tmpfs_mount_container nginx
     ```
     
