@@ -147,6 +147,14 @@ Tmpfs mounts are temporary filesystems stored in the host's memory (RAM).
         docker exec -it new_tmpfs_mount_container /bin/bash
         ls /data
         ```
+
+        --tmpfs /data:rw,noexec,nosuid,size=64m: This option specifies that a tmpfs mount should be created inside the container. Here's what each part means:
+
+- /data: This is the mount point inside the container where the tmpfs volume will be attached.
+- rw: This option sets the mount to be read-write.
+- noexec: This option prevents the execution of any binaries within this mount point. It's useful for mounting files that should not be executed as programs.
+- nosuid: This option ensures that the set-user-identifier or set-group-identifier bits are not honored, adding an extra layer of security.
+- size=64m: This sets the maximum size of the tmpfs mount to 64 megabytes.
         
     
     The file will not be there, confirming that the data was ephemeral.
