@@ -80,3 +80,5 @@ docker-compose down
 ```
 
 These commands will help you manage and troubleshoot your Docker Compose applications effectively.
+
+## CLI Cheetsheet -> https://dockerlabs.collabnix.com/intermediate/docker-compose/#cli-cheatsheet 
