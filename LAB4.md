@@ -150,5 +150,3 @@ Tmpfs mounts are temporary filesystems stored in the host's memory (RAM).
         
     
     The file will not be there, confirming that the data was ephemeral.
-
-   CLI Cheetsheet -> https://dockerlabs.collabnix.com/intermediate/docker-compose/#cli-cheatsheet 
