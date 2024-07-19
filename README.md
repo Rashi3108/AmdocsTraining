@@ -82,3 +82,6 @@ docker-compose down
 These commands will help you manage and troubleshoot your Docker Compose applications effectively.
 
 ## CLI Cheetsheet -> https://dockerlabs.collabnix.com/intermediate/docker-compose/#cli-cheatsheet 
+
+### Example 
+https://github.com/docker/awesome-compose/blob/master/elasticsearch-logstash-kibana/README.md
