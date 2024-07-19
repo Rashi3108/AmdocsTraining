@@ -25,7 +25,7 @@ Volumes are managed by Docker and are the preferred mechanism for persisting dat
 2. **Run a Container with a Volume:**
     
     ```
-    docker run -d -v my_volume:/data --name volume_container ngin
+    docker run -d -v my_volume:/data --name volume_container nginx
     ```
     
     This command runs an Nginx container and mounts the **`my_volume`** volume to the **`/data`** directory in the container.
